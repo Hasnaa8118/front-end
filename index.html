@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skill Manager</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+    
+<body>
+    <div class="container mt-4">
+        <h1 class="text-center my-4">Skill Manager</h1>
+        <button id="back-btn" class="btn btn-secondary mb-3">Back to Consultants List</button>
+        <div id="skills-view" style="display: none;">
+            <h2 id="skills-title">Skills of Consultant</h2>
+            <ul id="skills-list" class="list-group"></ul>
+            <button id="suggest-missions-btn" class="btn btn-primary mt-3">Suggest Missions</button>
+            <div id="missions-view" style="display: none;">
+                <h3>Based on your skills here are the Proposed Missions</h3>
+                <ul id="missions-list" class="list-group"></ul>
+            </div>
+         </div>
+        <ul id="consultant-list" class="list-group"></ul>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

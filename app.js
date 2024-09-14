@@ -1,5 +1,5 @@
-const BACKEND_CONSULTANTS = 'https://back-demo-001-cnacf2c3cta4embv.northeurope-01.azurewebsites.net';
-const BACKEND_INTELL_MISSION_PROPOSER = 'https://back-inteligent-mission-proposer-001-cpckegfpdna5c8ah.northeurope-01.azurewebsites.net';
+const BACKEND_CONSULTANTS = 'https://backend-001-web-app-c7cacxfbfkevdrdz.westeurope-01.azurewebsites.net';
+const BACKEND_INTELL_MISSION_PROPOSER = 'https://hasnaa-app-tp.azurewebsites.net/api/missions-http-001?code=DJ56xQPEJrrtBY_LXmdsJ6CSky4WD4Ot5Bk1c1WTSe8gAzFub5CHJw%3D%3D';
 
     
 $(document).ready(function() {

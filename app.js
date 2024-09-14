@@ -50,7 +50,7 @@ $(document).ready(function() {
     // Suggest missions based on skills
    $('#suggest-missions-btn').click(function() {
         $.ajax({
-            url: `${BACKEND_INTELL_MISSION_PROPOSER}/suggest-missions`,
+            url: `${BACKEND_INTELL_MISSION_PROPOSER}`,
             type: 'POST',
             contentType: 'application/json',
             data: JSON.stringify({ skills: currentSkills }),
